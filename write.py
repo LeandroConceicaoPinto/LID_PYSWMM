@@ -7,7 +7,7 @@ from random import random
 import numpy as np
 from numpy import average, matrix
 
-
+# Aldo passou por aqui
 # Read base file to change parameters
 with open("LID_inp_0.inp",'r') as f:
     get_all=f.readlines()
