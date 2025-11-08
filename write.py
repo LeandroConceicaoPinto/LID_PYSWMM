@@ -14,7 +14,7 @@ with open("LID_inp_0.inp",'r') as f:
 
 dk = 0.2 # intervalo de valores do coef. de perda local
 cont = 0 # contador de arquivos
-nk = 10 # numero de valores do coef. de perda local em cada direcao
+nk = 2 # numero de valores do coef. de perda local em cada direcao
 
 for i in range(nk):
     ############################################## OBS: colocar 20 para os resultados finais
