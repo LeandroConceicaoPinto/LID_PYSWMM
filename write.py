@@ -25,8 +25,8 @@ for i in range(nk):
             kDw = k*dk
             cont = cont + 1
             print(cont, kLat,kDw,kUp)
-            shutil.copy("LID_inp_0.inp", os.path.join(f"junction_inp_{cont}.inp"))
-            shutil.copy("LID_ini_0.ini", os.path.join(f"junction_ini_{cont}.ini"))
+            shutil.copy("LID_inp_0.inp", os.path.join(f"LID_inp_{cont}.inp"))
+            shutil.copy("LID_ini_0.ini", os.path.join(f"LID_ini_{cont}.ini"))
             file_name = f"LID_inp_{cont}.inp"
             print(file_name)
             with open('K_value.txt','a') as res:
