@@ -12,7 +12,7 @@ from numpy import average, matrix
 with open("LID_inp_0.inp",'r') as f:
     get_all=f.readlines()
 
-dk = 0.2 # intervalo de valores do coef. de perda local
+dk = 0.1 # intervalo de valores do coef. de perda local
 cont = 0 # contador de arquivos
 nk = 2 # numero de valores do coef. de perda local em cada direcao
 
